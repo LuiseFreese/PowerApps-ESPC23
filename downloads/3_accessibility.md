@@ -2,7 +2,6 @@
 
 In the third exercise we will add accessibility features to our menu.
 
-
 ## Main Quests overview
 
 1. Add accessible labels
@@ -33,7 +32,7 @@ Go to the button and set the **FocusedBorderColor** to `Color.Gray` and the **Fo
 
 Try to make sure navigating with `Tab` and `Shift-Tab` moves the focused border up and down and selecting with `Enter` triggers your event.
 
-![keyboard](assets/3_keyboard.gif)
+![keyboard](/assets/3_keyboard.gif)
 
 ## Side quests
 
@@ -60,6 +59,6 @@ Add to the Accessible labels if there are news in "Home" or "Notifications".
 
 ### Add a dark and high contrast mode
 
-![darkmode](assets/2_darkmode.gif)
+![darkmode](/assets/2_darkmode.gif)
 
 Reminder: Collections and galleries are your friends. Store the needed Colors in a collection and change the mode using a gallery.

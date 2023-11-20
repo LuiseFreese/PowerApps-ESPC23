@@ -98,7 +98,7 @@ Now we set an initial language, but we'll want a way to change the language duri
 
 Therefore we create a dropdown to change it:
 
-![dropdown](assets/3_dropdown.gif)
+![dropdown](/assets/3_dropdown.gif)
 
 Add a drop down from the insert menu.
 
@@ -133,7 +133,7 @@ ClearCollect(
 
 Add another language to the collection and drop down.
 
-![ukr](assets/3_ukr.png)
+![ukr](/assets/3_ukr.png)
 
 
 

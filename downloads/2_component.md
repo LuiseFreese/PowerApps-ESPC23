@@ -2,7 +2,7 @@
 
 In the second exercise we will take our shiny menu and we'll turn it into a component to use it on multiple screens and add some functionality.
 
-![Menu](assets/2_retractable.gif)
+![Menu](/assets/2_retractable.gif)
 
 
 ## Main Quests overview
@@ -24,13 +24,13 @@ To prepare our app we first enable the **Enhanced component properties** in our 
 
 Switch that to on:
 
-![properties](assets/2_properties.png)
+![properties](/assets/2_properties.png)
 
 ### 1. Create a component
 
 We start by creating a new component in our app. We will call it `cmp_Menu`.
 
-![new](assets/2_new.png)
+![new](/assets/2_new.png)
 
 Set the **Width** to `270` and the **Height** to `640`. We can change those later, but it will roughly be the dimensions we need for the menu.
 
@@ -46,17 +46,17 @@ We will pass everything we need as custom properties into the component. We will
 
 We add a new custom property, call it **items** and set the **Data Type** to `Table`
 
-![custom](assets/2_custom.png)
+![custom](/assets/2_custom.png)
 
 We will now add `colMenu` as the default value for our newly created **items** property.
 
-![items](assets/2_items.png)
+![items](/assets/2_items.png)
 
 We now select the gallery and change the **Items** property there from `colMenu` to `cmp_Menu.items`. Now we should have access to our collection.
 
 The next property we need is called **selectedID**. We will pass the id of the selected item in there to highlight it in the menu.
 
-![items](assets/2_selected.png)
+![items](/assets/2_selected.png)
 
 You can select the default value to `1`, which means in our preview the menu should be selected.
 
@@ -72,7 +72,7 @@ If(
 
 Your component should look like this:
 
-![menu](assets/2_menu.png)
+![menu](/assets/2_menu.png)
 
 Note: If you completed the side quests of the first exercise you have to change the svg-images as well.
 
@@ -84,7 +84,7 @@ We will use a behavior property for that (which are now called `Function` proper
 
 The **Return data type** is not important, because we won't return data. But we will need to specify a parameter. We will call it **id** and define it as a `number`. We will pass the selected menu item id through this parameter.
 
-![behavior](assets/2_behavior.png)
+![behavior](/assets/2_behavior.png)
 
 Set the **OnSelect** property of the button to 
 
@@ -100,18 +100,18 @@ Notify($"You selected id {id}")
 
 The result should look like this:
 
-![test](assets/2_test.gif)
+![test](/assets/2_test.gif)
 
 
 ### 4. Expand an retract functionality
 
 Below a certain screen size the twitter menu retracts, hiding the labels of the buttons.
 
-![retracted](assets/2_retracted.png)
+![retracted](/assets/2_retracted.png)
 
 To add this feature to our component we will add a new property, which we will call **expanded**. Make sure it's of the type `Boolean`
 
-![expproperty](assets/2_expproperty.png)
+![expproperty](/assets/2_expproperty.png)
 
 We now can set the **Width** of the component to `If(Self.expanded, 250, 70)`. Now the width of our component changes if we toggle this property.
 
@@ -121,14 +121,14 @@ This is also a good moment to set the gallery and the button **Width** to `Paren
 
 If we change the **expanded** default value our component should behave like this:
 
-![testexpand](assets/2_testexpand.gif)
+![testexpand](/assets/2_testexpand.gif)
 
 
 ### 5. Insert the component to your app
 
 Pretty straight forward (start playing around with the inpu properties a bit afertwards):
 
-![insert](assets/2_insert.png)
+![insert](/assets/2_insert.png)
 
 ## Side quests
 
@@ -144,7 +144,7 @@ Add more styling properties!
 
 Just a glimpse of what is coming ahead:
 
-![darkmode](assets/2_darkmode.gif)
+![darkmode](/assets/2_darkmode.gif)
 
 Note: I like to use Hexadecimal colors as strings, so we can use them inside svg's. We will need the **textColorHex** for the svg-color.
 
@@ -152,6 +152,6 @@ Note: I like to use Hexadecimal colors as strings, so we can use them inside svg
 
 We are looking for this effect without hard-coding custom width-values into the menu:
 
-![autowidth](assets/2_autowidth.gif)
+![autowidth](/assets/2_autowidth.gif)
 
 There is no straight forward way to do this. You can find 2 solutions at [Matthew Devaney's blog](https://www.matthewdevaney.com/how-to-make-a-power-apps-auto-width-label/)

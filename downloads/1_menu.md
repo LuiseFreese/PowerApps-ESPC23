@@ -2,7 +2,7 @@
 
 In the first exercise we will build a menu that resembles the twitter side menu. The left version are the main quests, the right version includes the side quests.
 
-![Menu](assets/1_menu.png)
+![Menu](/assets/1_menu.png)
 
 ## [Main Quests overview](#user-content-main-quests)
 
@@ -25,7 +25,7 @@ Create an empty Canvas App from scratch in an environment of your choice. We WON
 
 This is the twitter-menu for reference (when logged in). We want to create a Power FX collection, that contains all the information we see in the menu.
 
-![Orignal-Menu](assets/1_original.png)
+![Orignal-Menu](/assets/1_original.png)
 
 We will need:
 * an ID (will be important for the OnSelect-property, stay tuned!)
@@ -73,11 +73,11 @@ We will create a simple gallery with an icon in the background and a transparent
 
 The tree view of our gallery should look like this (after renaming the elements)
 
-![Tree](assets/1_tree.png)
+![Tree](/assets/1_tree.png)
 
 Add some finishing touches to the gallery styling and your result should look like this
 
-![gallery](assets/1_gallery.png)
+![gallery](/assets/1_gallery.png)
 
 ### Use the OnSelect-property
 
@@ -124,7 +124,7 @@ If(
 
 This should give us this effect after clicking on a menu item.
 
-![gallery](assets/1_selected.png)
+![gallery](/assets/1_selected.png)
 
 
 ## Side quests
@@ -163,13 +163,13 @@ $"<svg width='24px' height='24px' viewBox='0 0 24 24'>
 
 Add this effect to the icons:
 
-![toggle](assets/1_toggle.gif)
+![toggle](/assets/1_toggle.gif)
 
 ### Add in the blue details in `home` and `notifications`
 
 Add these (information alredy in the menu collection)
 
-![highlights](assets/1_highlights.png)
+![highlights](/assets/1_highlights.png)
  
 
 

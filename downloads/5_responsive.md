@@ -8,7 +8,7 @@ Size 1 is for mobile with a menu on the bottom (not shown).
 
 The other 3 look like this:
 
-![sizes](assets/5_sizes.png)
+![sizes](/assets/5_sizes.png)
 
 
 ## Main Quests overview
@@ -31,7 +31,7 @@ First of all we change the settings of our app, so our window will behave respon
 
 In the display settings we turn **Scale to fit** `off`. This will allow Power Apps to always use the available space to display our app.
 
-![scalefit](assets/5_scalefit.png)
+![scalefit](/assets/5_scalefit.png)
 
 ### 1. Identify the main containers
 
@@ -45,7 +45,7 @@ The **right** container shows the trends and a search bar.
 
 The **messages** container floats in the bottom right corner and is expandable to the top.
 
-![maincomponents](assets/5_maincomponents.png)
+![maincomponents](/assets/5_maincomponents.png)
 
 ### 2. Create a container structure for the largest screen
 
@@ -61,7 +61,7 @@ Next we will create 3 `vertical Container` we will call `con_left`, `con_middle`
 
 The result should look like this:
 
-![containers](assets/5_containers.png)
+![containers](/assets/5_containers.png)
 
 We will turn the **Flexible width** of all containers `off`. (That sets **FillPortions** to `0`).
 
@@ -74,17 +74,17 @@ When you look closely at the twitter page you will notice a gap between the midd
 
 We will add a label to `con_main` and call it `lbl_spacer`. Delete the **Text** and set **Width** to `40`. We know place it between `con_middle` and `con_right`.
 
-![movelabel](assets/5_movelabel.png)
+![movelabel](/assets/5_movelabel.png)
 
 The result should look like this:
 
-![result](assets/5_result.png)
+![result](/assets/5_result.png)
 
 ### 3. Add size breakpoints
 
 We will now define the **SizeBreakpoints** of our **App** Object. We will set them to `[700, 1080, 1300]`.
 
-![breakpoints](assets/5_breakpoints.png)
+![breakpoints](/assets/5_breakpoints.png)
 
 This means we want to distinguish between 4 different Layouts:
 * `Size1`: **ScreenWidth** smaller 700 px
@@ -114,13 +114,13 @@ And that is it, we successfully created the frame of our responsive layout. Publ
 
 Add as much as you like.
 
-![content](assets/5_content.png)
+![content](/assets/5_content.png)
 
 ### 2. Add the messages box
 
 Build a message box that hovers in the bottom right corner in `Size4`.
 
-![message](assets/5_message.gif)
+![message](/assets/5_message.gif)
 
 ### 3. Add the mobile view
 
@@ -130,4 +130,4 @@ Add a simple mobile view that just consists of `con_middle` and a horizontal men
 
 Great exercise to use more nested containers:
 
-![tweet](assets/5_tweet.png)
+![tweet](/assets/5_tweet.png)
