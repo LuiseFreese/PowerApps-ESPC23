@@ -1,8 +1,8 @@
 # Exercise 5: Create a responsive screen
 
-In the last exercise we want to use containers to create a responsive screen. Again we are trying to copy the twitter page.
+In the last exercise we want to use containers to create a responsive screen. Again we are trying to copy the X page.
 
-The twitter page has roughly 4 different layouts depending on its size.
+The X page has roughly 4 different layouts depending on its size.
 
 Size 1 is for mobile with a menu on the bottom (not shown).
 
@@ -35,7 +35,7 @@ In the display settings we turn **Scale to fit** `off`. This will allow Power Ap
 
 ### 1. Identify the main containers
 
-We won't display too much detail, but want to use the main containers twitter consists of.
+We won't display too much detail, but want to use the main containers X consists of.
 
 The **left** container is the home of the menu, tweet-button ad logo.
 
@@ -70,7 +70,7 @@ We set the following **Width** for the containers:
 * middle: `600`
 * right: `350`
 
-When you look closely at the twitter page you will notice a gap between the middle and right container.
+When you look closely at the X page you will notice a gap between the middle and right container.
 
 We will add a label to `con_main` and call it `lbl_spacer`. Delete the **Text** and set **Width** to `40`. We know place it between `con_middle` and `con_right`.
 

@@ -20,7 +20,7 @@ To follow this tutorial you should have build a few Canvas Apps and should be fa
 
 ## Coding exercises
 
-Throughout the workshop, we will be rebuilding the Twitter frontpage in Power App Canvas Apps as an example to illustrate the concepts we discuss.
+Throughout the workshop, we will be rebuilding the X frontpage in Power App Canvas Apps as an example to illustrate the concepts we discuss.
 
 Click on the chapters to jump to the respective exercises
 

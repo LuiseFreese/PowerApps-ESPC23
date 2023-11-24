@@ -9,7 +9,7 @@ In the second exercise we will take our shiny menu and we'll turn it into a comp
 
 1. Create a component
 2. Add properties to the component
-3. Add a behavior property
+3. Add an Event property
 4. Expand and retract functionality
 5. Insert the component to your app
 
@@ -76,7 +76,7 @@ Your component should look like this:
 
 Note: If you completed the side quests of the first exercise you have to change the svg-images as well.
 
-### 3. Add a behavior property
+### 3. Add an Event property
 
 Now we need to change the **OnSelect** property of the button so we can freely change it without touching the component.
 
@@ -84,7 +84,7 @@ We will use a behavior property for that (which are now called `Function` proper
 
 The **Return data type** is not important, because we won't return data. But we will need to specify a parameter. We will call it **id** and define it as a `number`. We will pass the selected menu item id through this parameter.
 
-![behavior](/assets/2_behavior.png)
+![behavior](/assets/2_event.png)
 
 Set the **OnSelect** property of the button to 
 
@@ -103,9 +103,9 @@ The result should look like this:
 ![test](/assets/2_test.gif)
 
 
-### 4. Expand an retract functionality
+### 4. Expand and retract functionality
 
-Below a certain screen size the twitter menu retracts, hiding the labels of the buttons.
+Below a certain screen size the X menu retracts, hiding the labels of the buttons.
 
 ![retracted](/assets/2_retracted.png)
 
@@ -134,7 +134,6 @@ Pretty straight forward (start playing around with the inpu properties a bit afe
 
 Of course first try to make the menu with the svg's as a component.
 
-Work on the styling a bit and play around with
 
 ### Add styling properties
 

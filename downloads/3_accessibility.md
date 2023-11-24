@@ -36,23 +36,6 @@ Try to make sure navigating with `Tab` and `Shift-Tab` moves the focused border 
 
 ## Side quests
 
-### Did you really use html-Texts for the svg Icons?
-
-If you did there are sadly no Accessible Labels for HTML Texts. But there are workarounds that are picked up by screen readers.
-
-You could either place a transparent label, which will be picked up by the screen reader.
-
-The other possibility is to add html-code directly into the **HTMLText** that will be picked up.
-
-This code works:
-
-```
-$"<svg width='24px' height='24px' viewBox='0 0 24 24' fill='{cmp_MenuAccessible.textColorHex}' role='img' aria-labelledby='title'>
-    <title id='title'>{If(!cmp_MenuAccessible.expanded, ThisItem.text)}</title>    
-    <path role='presentation' d='{If(ThisItem.id <> cmp_MenuAccessible.selectedID, ThisItem.svg_path, ThisItem.svg_selected)}'>
-</svg>"
-```
-
 ### Include the messages and notifications into the labels
 
 Add to the Accessible labels if there are news in "Home" or "Notifications".

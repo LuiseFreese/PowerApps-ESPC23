@@ -38,7 +38,7 @@ ClearCollect(colLanguages,
     {id: 4, language: "en", value: "Messages"},
     {id: 5, language: "en", value: "Lists"},
     {id: 6, language: "en", value: "Bookmarks"},
-    {id: 7, language: "en", value: "Twitter Blue"},
+    {id: 7, language: "en", value: "X Blue"},
     {id: 8, language: "en", value: "Profile"},
     {id: 9, language: "en", value: "More"}
 
@@ -49,7 +49,7 @@ ClearCollect(colLanguages,
     {id: 4, language: "de", value: "Nachrichten"},
     {id: 5, language: "de", value: "Listen"},
     {id: 6, language: "de", value: "Lesezeichen"},
-    {id: 7, language: "de", value: "Twitter Blue"},
+    {id: 7, language: "de", value: "X Blue"},
     {id: 8, language: "de", value: "Profil"},
     {id: 9, language: "de", value: "Mehr"}
 );
