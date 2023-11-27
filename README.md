@@ -9,7 +9,7 @@ In this workshop, we will dive deep into the best practices for designing, build
 3. How to create reusable components - or use our [component library](https://github.com/pnp/powerapps-designtoolkit)
 4. Intro to accessibility and why you need to take care
 5. How to make apps accessible by design
-6. How to measure accessibility
+6. How to measure accessibility - also use Luise's [color contrast ratio checker](https://adoption.microsoft.com/sample-solution-gallery/sample/pnp-powerapps-samples-accessibility-color-contrast-checker/)
 7. Using visual hierarchy and layouts to make your applications more accessible and comprehensible
 
 ## Prerequisites
