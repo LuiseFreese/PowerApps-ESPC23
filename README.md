@@ -20,15 +20,15 @@ To follow this tutorial you should have build a few Canvas Apps and should be fa
 
 ## Coding exercises
 
-Throughout the workshop, we will be rebuilding the Twitter frontpage in Power App Canvas Apps as an example to illustrate the concepts we discuss.
+Throughout the workshop, we will be rebuilding the X frontpage in Power App Canvas Apps as an example to illustrate the concepts we discuss.
 
 Click on the chapters to jump to the respective exercises
 
-1. [create a menu](downloads/1_menu.md)
-2. [make a menu component](downloads/2_component.md)
-3. [add accessibility features](downloads/3_accessibility.md)
-4. [make it multilingual](downloads/4_multilingual.md)
-5. [create a responsive screen](downloads/5_responsive.md)
+1. [create a menu](documentation/1_menu.md)
+2. [make a menu component](documentation/2_component.md)
+3. [add accessibility features](documentation/3_accessibility.md)
+4. [make it multilingual](documentation/4_multilingual.md)
+5. [create a responsive screen](documentation/5_responsive.md)
 
 The finished version will look something like this:
 
