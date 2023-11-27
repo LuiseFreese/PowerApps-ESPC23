@@ -1,12 +1,12 @@
 # PowerApps-ESPC23
 
-WIn this workshop, we will dive deep into the best practices for designing, building, and optimizing Power Apps applications, with a strong focus on accessibility. By the end of the workshop, you will have a solid understanding of how to create accessible Power Apps applications and improve your existing apps.
+In this workshop, we will dive deep into the best practices for designing, building, and optimizing Power Apps applications, with a strong focus on accessibility. By the end of the workshop, you will have a solid understanding of how to create accessible Power Apps applications and improve your existing apps.
 
 ## Agenda
 
 1. Choosing the right data sources for your apps
 2. Good coding practices
-3. How to create reusable components
+3. How to create reusable components - or use our [component library](https://github.com/pnp/powerapps-designtoolkit)
 4. Intro to accessibility and why you need to take care
 5. How to make apps accessible by design
 6. How to measure accessibility
